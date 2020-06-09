@@ -1,9 +1,11 @@
+package arrays;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ArraysSortedSquaresTest {
-    private final ArraysSortedSquares.Solution solution =new ArraysSortedSquares().new Solution();
+class SortedSquaresTest {
+    private final SortedSquares.Solution solution =new SortedSquares().new Solution();
 
     @Test
     public void sortedSquares() {

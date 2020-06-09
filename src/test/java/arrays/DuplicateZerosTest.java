@@ -1,10 +1,12 @@
+package arrays;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ArraysDuplicateZerosTest {
+class DuplicateZerosTest {
 
-    private final ArraysDuplicateZeros.Solution solution = new ArraysDuplicateZeros().new Solution();
+    private final DuplicateZeros.Solution solution = new DuplicateZeros().new Solution();
 
     @Test
     public void duplicateZeros_arrayWithoutZeros() {

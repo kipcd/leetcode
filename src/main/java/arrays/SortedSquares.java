@@ -1,4 +1,6 @@
-public class ArraysSortedSquares {
+package arrays;
+
+public class SortedSquares {
 
     public class Solution {
         public int[] sortedSquares(int[] A) {
