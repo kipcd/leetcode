@@ -30,18 +30,15 @@ public class MergeSorted {
                     if (n <= j) {
                         nums1[k] = nums1Copy[i];
                         i++;
-                        k++;
                     } else if (m <= i) {
                         nums1[k] = nums2[j];
                         j++;
-                        k++;
                     } else if (nums2[j] == nums1Copy[i]) {
                         nums1[k] = nums1Copy[i];
                         i++;
                         k++;
                         nums1[k] = nums2[j];
                         j++;
-                        k++;
                     } else if (nums2[j] > nums1Copy[i]) {
                         if (i < m) {
                             nums1[k] = nums1Copy[i];
@@ -50,7 +47,6 @@ public class MergeSorted {
                             nums1[k] = nums2[j];
                             j++;
                         }
-                        k++;
                     } else if (nums2[j] < nums1Copy[i] && j < n) {
                         if (j < n) {
                             nums1[k] = nums2[j];
@@ -59,8 +55,8 @@ public class MergeSorted {
                             nums1[k] = nums1Copy[i];
                             i++;
                         }
-                        k++;
                     }
+                    k++;
                 }
             }
         }
